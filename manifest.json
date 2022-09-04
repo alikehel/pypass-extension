@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "name": "PyPass",
+  "description": "",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "assets/main-icons/home.png",
+    "default_popup": "src/index.html"
+  }
+}
