@@ -47,10 +47,10 @@ aside section:last-child {
     padding-bottom: 10px;
 } */
 
-aside section:hover {
+/* aside section:hover {
     cursor: pointer;
     background-color: rgb(5, 99, 166);
-}
+} */
 
 aside section.active-tab {
     background-color: rgb(5, 99, 166);

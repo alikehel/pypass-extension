@@ -84,19 +84,19 @@ let getPassword = (id) => {
 
 /******************************* Style Utility Functions *******************************/
 
-let tabs = document.querySelectorAll(".tab");
-let sections = document.querySelectorAll(".section");
+// let tabs = document.querySelectorAll(".tab");
+// let sections = document.querySelectorAll(".section");
 
-tabs.forEach((tab) => {
-    tab.addEventListener("click", (e) => {
-        let activeTab = document.querySelector(".active-tab");
-        activeTab.classList.remove("active-tab");
-        tab.classList.add("active-tab");
+// tabs.forEach((tab) => {
+//     tab.addEventListener("click", (e) => {
+//         let activeTab = document.querySelector(".active-tab");
+//         activeTab.classList.remove("active-tab");
+//         tab.classList.add("active-tab");
 
-        let activeSection = document.querySelector(".active-section");
-        activeSection.classList.remove("active-section");
-        let currentTabSectionID = e.currentTarget.getAttribute("data-section");
-        let currentSection = document.querySelector(`#${currentTabSectionID}`);
-        currentSection.classList.add("active-section");
-    });
-});
+//         let activeSection = document.querySelector(".active-section");
+//         activeSection.classList.remove("active-section");
+//         let currentTabSectionID = e.currentTarget.getAttribute("data-section");
+//         let currentSection = document.querySelector(`#${currentTabSectionID}`);
+//         currentSection.classList.add("active-section");
+//     });
+// });
